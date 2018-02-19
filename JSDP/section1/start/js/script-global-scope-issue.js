@@ -1,6 +1,12 @@
 // --------------
-// MODULE PATTERN
+// GLOBAL SCOPE ISSUE
 // --------------
+//
+// NOTE:
+// - Issue: Global scope Methods are public
+// - can use in inspector console
+// - Issue: Global scope in 11 spaces for vars, could possible create common enough var that we
+// 		override other variables and functions
 let leadself = 'Me: ',
 		leadcomputer = "PC: ",
 		aSaid= ["This is a Cyber Chat"],
@@ -13,9 +19,6 @@ let leadself = 'Me: ',
 									"You’ve got about as much charm as a dead slug."];
 
 
-// NOTE: Methods are public
-// - can use in inspector console
-//
 function talk(msg) {
 	echo(leadself + " " + msg);
 }
@@ -42,6 +45,7 @@ function echo(msg) {
 		start = Math.max(aSaidLength - 6, 0),
 		out = "";
 
+	// NOTE: limits chat in window to 6 lines
 	for(var i = start; i < aSaid.length; i++) {
 		out += aSaid[i];
 	}
