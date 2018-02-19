@@ -41,12 +41,26 @@ Course Description (from Udemy): Dive deep into JavaScript design patterns to wr
 - Enable privacy for vars and other info
   - allow for private var scope
 - Issue: public and private members are treated differently
- - added complexity to core structure and code writing
- - private can't interact with public
+  - added complexity to core structure and code writing
+  - private can't interact with public
 
-### Module
+### Module Reveal
 
 ###### Notes:
 - [Module Example](section1/start/js/script-module-reveaal.js)
 - Upgrade on Module Pattern
--
+  - more simplistic and easy to work with
+- reveal process is different from creation process
+- Issue: things are final
+  - can't override names of funcs, vars, or internal mechanisms
+    - wouldn't have access to props living in scope of functions
+    - don't have access to private variables
+- Much cleaner tho
+
+### Control Global Access Completely
+
+###### Notes:
+- Design patterns aren't solutions, they are suggestions
+- can mix and match if needed
+
+## Creational Design Patterns
