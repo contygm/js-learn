@@ -7,6 +7,7 @@
 // - can use in inspector console
 // - Issue: Global scope in 11 spaces for vars, could possible create common enough var that we
 // 		override other variables and functions
+//
 let leadself = 'Me: ',
 		leadcomputer = "PC: ",
 		aSaid= ["This is a Cyber Chat"],

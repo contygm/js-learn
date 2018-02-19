@@ -36,5 +36,17 @@ Course Description (from Udemy): Dive deep into JavaScript design patterns to wr
 
 ### Module
 
-######Notes:
+###### Notes:
 - [Module Example](section1/start/js/script-module.js)
+- Enable privacy for vars and other info
+  - allow for private var scope
+- Issue: public and private members are treated differently
+ - added complexity to core structure and code writing
+ - private can't interact with public
+
+### Module
+
+###### Notes:
+- [Module Example](section1/start/js/script-module-reveaal.js)
+- Upgrade on Module Pattern
+-

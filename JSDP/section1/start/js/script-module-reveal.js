@@ -60,15 +60,15 @@ const chatModule = (function () {
 
 		saySassyStuff: function () {
 			// pick random sport in array -> randomNum < array.length
-			let msg = aSassyStuff[ Math.floor(Math.random() * aSassyStuff.length)];
+			let msg = aSassyStuff[ Math.floor(Math.random() * this.aSassyStuff.length)];
 
 			echo(leadself + " " + msg);
 		},
 	};
 })();
 
-$(document).ready(function() {
+$(document)ready(function() {
 	chatModule.talk('Yo');
 	chatModule.replyYesNo();
-	chatModule.saySassyStuff();
+	chatModule.saySassyStuff()
 })
