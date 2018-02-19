@@ -1,9 +1,9 @@
 
-##First Design Patterns
+## First Design Patterns
 
-###Global Scope Issue
+### Global Scope Issue
 
-######Notes:
+###### Notes:
 - [Global Scope Issue Example](section1/start/js/script-global-scope-issue.js)
 - Issue: Global scope Methods are public
 - can use in inspector console
